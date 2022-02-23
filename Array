@@ -1,0 +1,47 @@
+Arrays in PHP
+
+An ordered map in PHP is called an array (contains value on the basis of key).
+It's a sort of variable that can hold several values of the same type.
+
+
+PHP Array's Benefits
+Less Code: We don't need to define several variables, thus we can write less code.
+Simple to traverse: We can traverse all the elements of an array with a single loop.
+Sorting: The items of an array can be sorted.
+
+
+Array Types in PHP
+
+In PHP, there are three types of arrays.
+
+I. Indexed Array
+II. Multidimensional Array 
+III. Associative Array
+
+I. Indexed Array in PHP
+
+The PHP index is represented by a number that begins with 0.
+In the PHP array, we can store numbers, strings, and objects.
+By default, all PHP array elements are given an index number.
+
+II. Associative Array in PHP
+
+In PHP, you can associate a name/label with each array element.
+Because each element is represented by a label rather than an incremented number, you can readily recall it.
+
+III. Multidimensional Array in PHP
+
+The array of arrays in PHP is also known as a multidimensional array.
+It enables the storage of tabular data in an array.
+PHP multidimensional arrays can be expressed as a matrix, with row * column as the rows and columns as the columns.
+
+Sorting Array
+
+An array's elements can be sorted alphabetically or numerically, in ascending or descending order.
+
+sort() - sort arrays in ascending order
+rsort() is a function that sorts arrays in ascending order.
+asort() is a function that sorts associative arrays in ascending order based on their value.
+ksort() is a function that sorts associative arrays in ascending order based on the key.
+arsort() is a function that sorts associative arrays in descending order based on their value.
+krsort() is a function that sorts associative arrays in descending order based on the key.
