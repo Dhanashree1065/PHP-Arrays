@@ -45,3 +45,11 @@ asort() is a function that sorts associative arrays in ascending order based on 
 ksort() is a function that sorts associative arrays in ascending order based on the key.
 arsort() is a function that sorts associative arrays in descending order based on their value.
 krsort() is a function that sorts associative arrays in descending order based on the key.
+
+Different functions of array
+
+1. in_array(): Checks if a specified value exists in an array
+2. range(): Creates an array containing a range of elements
+3. array_unique(): Removes duplicate values from an array. It is case-sensitive
+4. array_search(): earches an array for a given vale and returns the key
+5. array_slice(): Returns selected parts of an array
